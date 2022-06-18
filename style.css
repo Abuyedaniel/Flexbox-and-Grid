@@ -48,6 +48,13 @@ header{
   width: 50%;
   margin: auto;
 }
+.sedan-button,
+  .suv-button,
+.luxury-button {
+margin-top: 8rem;
+}
+
+
 /* Desktop */
 main {
   width: 70%;
