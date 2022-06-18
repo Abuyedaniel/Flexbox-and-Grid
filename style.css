@@ -48,8 +48,6 @@ header{
   width: 50%;
   margin: auto;
 }
-
-/* Desktop */
 main {
   width: 70%;
   margin: auto;
@@ -66,9 +64,9 @@ h1 {
 .sedan,
 .suv,
 .luxury {
-  height: 80vh;
   width: 33.3%;
   padding: 2em 2em 9em 2em ;
+  height: 80vh;
 }
 .paragraph {
   margin-top: 2rem;
@@ -77,14 +75,13 @@ h1 {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
 }
-
 .sedan-button {
   color: hsl(31, 77%, 52%);
   width: 9rem;
   height: 3em;
   border: none;
   border-radius: 20px;
-  margin-top: 17rem;
+  margin-top: 8px;
 }
 
 .suv-button {
@@ -93,7 +90,7 @@ h1 {
   height: 3em;
   border: none;
   border-radius: 20px;
-  margin-top: 17rem;
+  margin-top: 8px;
 }
 
 .luxury-button {
@@ -102,12 +99,39 @@ h1 {
   height: 3em;
   border: none;
   border-radius: 20px;
-  margin-top: 17rem;
+  margin-top: 9px;
 }
-.sedan-button,
-  .suv-button,
-.luxury-button {
-margin-top: 8rem;
+
+
+
+/* Desktop */
+@media screen and (max-width: 1440px) {
+  .sedan-button {
+    color: hsl(31, 77%, 52%);
+    width: 9rem;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    margin-top: 9rem;
+  }
+  
+  .suv-button {
+    color: hsl(184, 100%, 22%);
+    width: 9rem;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    margin-top: 9rem;
+  }
+  
+  .luxury-button {
+    color: hsl(179, 100%, 13%);
+    width: 9rem;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    margin-top: 9rem;
+  } 
 }
 
 
@@ -142,7 +166,6 @@ margin-top: 8rem;
     width: 100%;
     padding: 1em;
   }
-
   h1 {
     font-family: "Big Shoulders Display", cursive;
     font-size: 15px;
@@ -157,7 +180,6 @@ margin-top: 8rem;
     padding: 1em;
     margin-bottom: 2em;
   }
-
   .sedan-button,
   .suv-button,
   .luxury-button {
