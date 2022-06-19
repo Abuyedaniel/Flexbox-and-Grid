@@ -3,14 +3,11 @@
   padding: 0;
 }
 button{
-  height: 30px;
-  width: 105px;
-  margin-top: 3vh;
-  margin-left: 100px;
-  margin-bottom: 10px;
-  border-radius: 10px;
+ width: 100px;
   padding: 9px 10px;
   display: inline-block;
+  margin-bottom: 7px;
+  border-radius: 10px;
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(10, 10, 233);
   color: beige;
