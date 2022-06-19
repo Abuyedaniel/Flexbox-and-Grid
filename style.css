@@ -4,16 +4,14 @@
   box-sizing: border-box;
 }
 .btn{
-  height: 30px;
-  width: 105px;
-  margin-left: 100px;
-  margin-bottom: 10px;
-  border-radius: 10px;
+ width: 100px;
   padding: 9px 10px;
   display: inline-block;
+  margin-bottom: 7px;
+  border-radius: 10px;
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(10, 10, 233);
-  color: beige;
+  color: beige;;
 }
 body {
   background-color: hsl(0, 0%, 95%);
@@ -101,13 +99,11 @@ h1 {
 
 /* Mobile */
 .btn{
-  height: 30px;
   width: 100px;
-  margin-top: 3vh;
-  margin-left: 50px;
-  border-radius: 10px;
   padding: 9px 10px;
   display: inline-block;
+  margin-bottom: 7px;
+  border-radius: 10px;
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(10, 10, 233);
   color: beige;
@@ -149,9 +145,8 @@ h1 {
 @media screen and (min-width: 600px) and (max-width: 1440px) {
   .btn{
     width: 100px;
-    /* margin-top: 3vh; */
-    margin-left: 100px;
     border-radius: 10px;
+    margin-bottom: 7px;
     padding: 9px 10px;
     display: inline-block;
     border: 1px solid rgb(255, 255, 255);
