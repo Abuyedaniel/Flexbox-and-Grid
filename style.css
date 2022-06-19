@@ -6,8 +6,7 @@
 .btn{
   height: 30px;
   width: 105px;
-  margin-top: 3vh;
-  margin-left: 270px;
+  margin-left: 100px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 9px 10px;
@@ -51,9 +50,6 @@ header{
 main {
   width: 70%;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 h1 {
   margin-top: 1rem;
@@ -66,12 +62,11 @@ h1 {
 .luxury {
   width: 33.3%;
   padding: 2em 2em 9em 2em ;
-  height: 80vh;
 }
-.paragraph {
+.p {
   margin-top: 2rem;
   line-height: 2em;
-  height: 8rem;
+  height: 7rem;
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
 }
@@ -99,13 +94,77 @@ h1 {
   height: 3em;
   border: none;
   border-radius: 20px;
-  margin-top: 9px;
+  margin-top: 8px;
+}
+
+
+
+/* Mobile */
+.btn{
+  height: 30px;
+  width: 100px;
+  margin-top: 3vh;
+  margin-left: 50px;
+  border-radius: 10px;
+  padding: 9px 10px;
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(10, 10, 233);
+  color: beige;
+}
+body {
+  width: 100%;
+  margin: auto;
+}
+.sedan,
+.suv,
+.luxury {
+  width: 100%;
+  padding: 1em;
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 1em;
+}
+.p {
+  margin-top: 2px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.sedan-button,
+.suv-button,
+.luxury-button {
+  margin: 3rem 1.5em;
+  width: 10rem;
 }
 
 
 
 /* Desktop */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 600px) and (max-width: 1440px) {
+  .btn{
+    width: 100px;
+    /* margin-top: 3vh; */
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 9px 10px;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(10, 10, 233);
+    color: beige;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .sedan-button {
     color: hsl(31, 77%, 52%);
     width: 9rem;
@@ -131,59 +190,6 @@ h1 {
     border: none;
     border-radius: 20px;
     margin-top: 9rem;
-  } 
-}
-
-
-
-/* Mobile */
-@media screen and (min-width: 375px) and (max-width: 430px) {
-  .btn{
-    height: 30px;
-    width: 100px;
-    margin-top: 3vh;
-    margin-left: 50px;
-    border-radius: 10px;
-    padding: 9px 10px;
-    display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(10, 10, 233);
-    color: beige;
   }
-  body {
-    width: 100%;
-    margin: auto;
-  }
-  main {
-    flex-direction: column;
-    width: 80%;
-    padding: 8px;
-  }
-  .sedan,
-  .suv,
-  .luxury {
-    height: 70vh;
-    width: 100%;
-    padding: 1em;
-  }
-  h1 {
-    font-family: "Big Shoulders Display", cursive;
-    font-size: 15px;
-    font-weight: bolder;
-    padding: 1em;
-  }
-  .paragraph {
-    margin-top: 2px;
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-    padding: 1em;
-    margin-bottom: 2em;
-  }
-  .sedan-button,
-  .suv-button,
-  .luxury-button {
-    margin: 2rem 1.5em;
-    width: 10rem;
-  }
+   
 }
